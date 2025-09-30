@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "name": "Admin",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "admin",
+      "createdAt": "2025-09-26T00:00:00.000Z"
+    },
+    {
+      "name": "Alice",
+      "email": "alice@example.com",
+      "password": "alice123",
+      "role": "user",
+      "createdAt": "2025-09-26T00:00:00.000Z"
+    },
+    {
+      "name": "Bob",
+      "email": "bob@example.com",
+      "password": "bob123",
+      "role": "user",
+      "createdAt": "2025-09-26T00:00:00.000Z"
+    }
+  ],
+  "rooms": [
+    {
+      "name": "Standard Room",
+      "roomNumber": "101",
+      "description": "1 bed",
+      "price": 50,
+      "createdAt": "2025-09-26T00:00:00.000Z"
+    },
+    {
+      "name": "Deluxe Room",
+      "roomNumber": "102",
+      "description": "2 beds",
+      "price": 80,
+      "createdAt": "2025-09-26T00:00:00.000Z"
+    },
+    {
+      "name": "VIP Room",
+      "roomNumber": "201",
+      "description": "Luxury suite with sea view",
+      "price": 150,
+      "createdAt": "2025-09-26T00:00:00.000Z"
+    }
+  ]
+}
